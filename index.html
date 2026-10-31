@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Happy Halloween!</title>
+<style>
+  :root { --navy: #2e3192; --green: #00a651; --red: #ed1c24; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100dvh;
+    padding: 32px 24px;
+    border-left: 16px solid var(--green);
+    background: #fff;
+    color: var(--navy);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .icon { font-size: 72px; line-height: 1; margin-bottom: 28px; }
+  .lead { font-size: 27px; font-weight: 700; line-height: 1.3; }
+  .en { font-size: 18px; font-style: italic; line-height: 1.35; margin-top: 8px; }
+  .warning { margin-top: 36px; color: var(--red); }
+  .warning .lead { font-size: 34px; }
+  .warning .en { font-size: 22px; font-weight: 700; font-style: normal; }
+  .free { margin-top: 44px; font-size: 18px; line-height: 1.5; }
+</style>
+</head>
+<body>
+  <main>
+    <div class="icon" aria-hidden="true">🚨</div>
+    <p class="lead">Bạn vừa quét mã QR của một người lạ mặc đồng phục giả.</p>
+    <p class="en">You just scanned a QR code from a stranger in a fake uniform.</p>
+    <div class="warning">
+      <p class="lead">Đừng bao giờ làm vậy nữa.</p>
+      <p class="en">Never do that again.</p>
+    </div>
+    <p class="free">(Gửi xe miễn phí. Chúc mừng Halloween!)<br>(Parking is free. Happy Halloween!)</p>
+  </main>
+</body>
+</html>
